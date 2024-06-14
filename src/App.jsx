@@ -10,12 +10,14 @@ import Videos from './Videos';
 function App() {
   return (
     <>
-      <Home />
+     <div className='wrapper'>
+     <Home />
       <Details />
       <Gallery />
       <AboutUs/>
       <Videos/>
       <Message/>
+     </div>
     </>
   );
 }

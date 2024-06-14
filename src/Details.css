@@ -1,9 +1,11 @@
+/* Base Styles */
 #chyle-detail {
-    width: 500px; /* Adjust as needed */
-    height: 500px; /* Adjust as needed */
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
 }
-.details-container{
+
+.details-container {
     margin: 0 auto;
     background-color: rgba(49, 225, 231, 0.747);
     text-align: center;
@@ -12,8 +14,42 @@
     padding: 30px;
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
-.detail-message{
-    margin: 0 70px; /* Add margin to ensure they don't touch each other */
+
+.detail-message {
+    margin: 0 70px;
     text-align: center;
+    flex: 1; /* Allow flex items to grow and shrink */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #chyle-detail {
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 50%;
+    }
+
+    .details-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .detail-message {
+        margin: 20px 0; /* Reduce margin for smaller screens */
+        width: 100%; /* Full width for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .details-container {
+        padding: 10px;
+    }
+
+    .detail-message {
+        margin: 10px 0; /* Further reduce margin for smaller screens */
+        font-size: 0.9rem; /* Adjust font size if necessary */
+    }
 }

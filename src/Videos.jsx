@@ -20,7 +20,7 @@ function Videos() {
     <div className="video-gallery">
       {data.map((item, index) => (
         <div className="video-container" key={index}>
-          <video controls className="video" autoPlay>
+          <video controls className="video">
             <source src={item.src} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
