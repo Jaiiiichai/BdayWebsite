@@ -1,0 +1,19 @@
+#chyle-detail {
+    width: 500px; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
+    border-radius: 50%;
+}
+.details-container{
+    margin: 0 auto;
+    background-color: rgba(49, 225, 231, 0.747);
+    text-align: center;
+    width: 80%;
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.detail-message{
+    margin: 0 70px; /* Add margin to ensure they don't touch each other */
+    text-align: center;
+}

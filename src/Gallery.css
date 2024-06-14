@@ -1,0 +1,19 @@
+.image-gallery {
+    padding: 20px;
+    margin: 0 auto; /* Center the gallery horizontally */
+    max-width: 1200px; /* Ensure the gallery has enough width */
+  }
+  
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
+    gap: 10px; /* Add spacing between images */
+  }
+  
+  .image-container img {
+    width: 300px; /* Ensure images fill their grid cell */
+    height: 300px; /* Fixed height for all images */
+    object-fit: cover; /* Crop images to fit the fixed height */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  

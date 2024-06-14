@@ -1,0 +1,41 @@
+.welcome-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly; /* Use space-between to ensure there's space between the items */
+    align-items: center; /* Center items vertically */
+    height: 100vh; /* Full height of the viewport */
+    padding: 0 20px; /* Optional horizontal padding */
+}
+.welcome-message{
+    height: 500px;
+    width: 400px;
+    padding: 10px;
+}
+#chyle{
+    height: 600px;
+    width: 500px;
+    border-radius: 40px;
+}
+.chylepic{
+    height: 600px;
+    width: 500px;    
+
+}
+.welcome-message, .chylepic {
+    flex: 1; /* Take up equal space */
+    margin: 0 70px; /* Add margin to ensure they don't touch each other */
+    text-align: left; /* Center the text */
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 30px 30px; /* Reset default margin */
+    padding: 20px; /* Optional padding for visual appeal */
+}
+.date{
+    font-size: 1rem;
+}
+.greet{
+    font-size: 4rem;
+    text-align: center;
+}

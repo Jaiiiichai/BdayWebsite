@@ -1,0 +1,9 @@
+#root {
+  margin: 0 auto;
+  max-width: 1280px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}

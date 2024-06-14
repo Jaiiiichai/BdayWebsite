@@ -1,0 +1,33 @@
+.video-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px; /* Adjust the max width as needed */
+  }
+  
+  .video-container {
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2); 
+    border-radius: 40px;
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .video {
+    width: 500px;
+    max-width: 600px; /* Adjust the max width of the video */
+    height: 500px;
+    margin-bottom: 10px;
+  }
+  
+  .description-video {
+    width: 500px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+  }
+  
